@@ -1,0 +1,16 @@
+{
+  "main": "index.html",
+  "name": "cbcAdminConsole",
+  "version": "1.4.0",
+  "description": "cbc Admin Console",
+  "single-instance": false,
+  "window": {
+    "frame": true,
+    "toolbar": false,
+    "width": 1024,
+    "height": 650,
+    "min_width": 768,
+    "min_height": 100,
+    "title": "cbc Admin Console"
+  }
+}

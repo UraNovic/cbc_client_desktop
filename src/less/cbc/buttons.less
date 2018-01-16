@@ -1,0 +1,77 @@
+.btn {
+  // font-family: 'OpenSansLight';
+	font-size: 14px;
+	font-family: OpenSansRegular; 
+	border: none;
+	line-height: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-radius: 5px;
+	@media (max-width: @screen-xs-max) {
+		font-size: 12px;
+	}
+	&:focus {
+		outline: none;
+	}
+}
+.btn-default {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.btn-cancel {
+	// padding-left: 10px;
+	// padding-right: 10px;
+	background-color: transparent;
+	color: @midblue;
+	cursor: pointer;
+	text-decoration: none !important;
+	&:hover {
+		color: darken(@midblue, 15%);
+	}
+
+	&:hover, &:focus, &:active {
+		background-color: transparent;
+		outline: 0 !important;
+		box-shadow: none;
+	}
+	&:hover {
+		color: #333333;
+		background-color: #d9d9d9;
+		border-color: #adadad;
+	}
+}
+.btn-link {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.edit {
+	color: #428bca;
+	&:hover {
+		background-color: #d9d9d9;
+		border-color: #adadad;
+		text-decoration: none;
+	}
+}
+
+.btn.btn-lg.btn-submit {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.btn:disabled {
+  background: @midgray;
+  border-color: darken(@midgray, 10);
+  &:hover {
+  	background-color: #ccccca;
+  	border-color: #ccccca;
+  }
+}
+
+.btn-inline {
+  margin: 0 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.btn-add-trust {
+  float: right;
+}

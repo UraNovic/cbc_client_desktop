@@ -1,0 +1,11 @@
+.DS_Store
+.tmp/
+.build/
+.tx/
+.idea/
+npm-debug.log
+packages
+node_modules
+config.js
+test/e2e/protractor.conf.js
+res/nw/config.js
